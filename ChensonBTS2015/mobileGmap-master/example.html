@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<title>jquery.mobilegmap.js Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style>
+			.gmap {
+				width:100%;
+				height:100%;
+				min-height:500px;
+			}
+			.gmap_image img {
+				max-width:100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="gmap" data-center="Guadalajara, Jalisco" data-zoom="16">
+			<address>
+				<strong>builtbyrobot</strong><br />
+				Brugse Heirweg 37<br />
+				8211 Aartrijke
+			</address>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;language=en"></script>
+		<script src="jquery.mobilegmap.js"></script>
+		<script>
+			$(document).ready(function(){
+				// your google map container
+				$('.gmap').mobileGmap({
+					markers: [
+						{
+							position: 'Alvaro Obregon 204 A  San Juan de dios ',
+							info: '<h2>Chenson Cabañas</h2>Alvaro Obregon 204 A<br/> San Juan de dios<br/> Guadalajara, Jal<br/><b>3618-6248</b>',
+							showInfo: true
+						},
+						{
+							position: 'González Gallo 1818 El Rosario 44898 Guadalajara, Jal',
+							info: '<h2>Centro de distribución Chenson</h2>González Gallo 1818<br/> El Rosario 44898<br/> Guadalajara, Jal<br/><b>018002436766</b>',
+							showInfo: true
+						},
+						{
+							position: 'Antonio Rosales 23 Reforma',
+							info: '<h2>Chenson Gigantes</h2>Antonio Rosales 9<br/> Analco <br/> Guadalajara, Jal<br/><b>3618-4259 </b>',
+							showInfo: true
+						},
+						{
+							position: '20.6725501,-103.334266',
+							info: '<h2>Chenson 467</h2>Alvaro Obregon 467 A<br/> San Juan de dios  <br/> Guadalajara, Jal<br/><b>3618-0079</b>',
+							showInfo: true
+						},
+						
+					]
+				});
+			});
+		</script>
+	</body>
+</html>

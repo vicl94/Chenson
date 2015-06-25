@@ -1,0 +1,132 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!--Categorias-->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script>
+    $(document).ready(function(){
+        if (Modernizr.touch) {
+            // show the close overlay button
+            $(".close-overlay").removeClass("hidden");
+            // handle the adding of hover class when clicked
+            $(".img").click(function(e){
+                if (!$(this).hasClass("hover")) {
+                    $(this).addClass("hover");
+                }
+            });
+            // handle the closing of the overlay
+            $(".close-overlay").click(function(e){
+                e.preventDefault();
+                e.stopPropagation();
+                if ($(this).closest(".img").hasClass("hover")) {
+                    $(this).closest(".img").removeClass("hover");
+                }
+            });
+        } else {
+            // handle the mouseenter functionality
+            $(".img").mouseenter(function(){
+                $(this).addClass("hover");
+            })
+            // handle the mouseleave functionality
+            .mouseleave(function(){
+                $(this).removeClass("hover");
+            });
+        }
+    });
+</script>
+<!--Termina categorias-->
+<!--Slider-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<!--Termina slider-->
+
+<title>Chenson Back to school 2015</title>
+</head>
+
+<!--Inicia Menu-->
+	<div id="Menu">
+    <div class="Logo">
+    	<img src="img/Logo-chenson.png" width="50%" />
+    </div>
+        <ul class="nav clearfix animated">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Catálogo</a></li>
+            <li>
+                <a href="galeria.html">Tienda</a>
+                <div class="container-4">
+                    <div class="col4 highlighted">
+                        <h3>Preescolar</h3>
+                    </div>
+                    <div class="col1">
+                        <h3>Preescolar niña</h3>
+                        <ul>
+                            <li><a href="#">Mochila</a></li>
+                            <li><a href="#">Mochila con ruedas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col1">
+                        <h3>Preescolar niño</h3>
+                        <ul>
+                            <li><a href="#">Mochila</a></li>
+                            <li><a href="#">Mochila con ruedas</a></li>
+                            <li><a href="#">Lonchera</a></li>
+                            <li><a href="#">Canguro</a></li>
+                        </ul>
+                    </div>
+                    <div class="col4 highlighted">
+                        <h3>Primaria</h3>
+                    </div>
+                    <div class="col1">
+                        <h3>Primaria Niña</h3>
+                        <ul>
+                            <li><a href="#">Mochila</a></li>
+                            <li><a href="#">Mochila con ruedas</a></li>
+                            <li><a href="#">Lonchera</a></li>
+                            <li><a href="#">Lapicero</a></li>
+                        </ul>
+                    </div>
+                    <div class="col1">
+                        <h3>Primaria Niño</h3>
+                        <ul>
+                            <li><a href="#">Mochila</a></li>
+                            <li><a href="#">Mochila con ruedas</a></li>
+                            <li><a href="#">Lonchera</a></li>
+                            <li><a href="#">Lapicero</a></li>
+                        </ul>
+                    </div>
+                    <div class="col4 highlighted">
+                        <h3>Teens</h3>
+                    </div>
+                    <div class="col1">
+                        <h3>Teens chava</h3>
+                        <ul>
+                            <li><a href="#">Mochila</a></li>
+                            <li><a href="#">Mensajero</a></li>
+                            <li><a href="#">bolso escolar</a></li>
+                            <li><a href="#">Neceser</a></li>
+                            <li><a href="#">Valija</a></li>
+                        </ul>
+                    </div>
+                    <div class="col1">
+                        <h3>Primaria Niño</h3>
+                        <ul>
+                            <li><a href="#">Mochila</a></li>
+                            <li><a href="#">Mensajero</a></li>
+                            <li><a href="#">Canguro</a></li>
+                            <li><a href="#">Valija</a></li>
+                        </ul>
+                    </div>
+                </div>	
+            </li>
+            <li><a href="#">Donde comprar</a></li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+        </ul>
+        <br />
+         <div class="Lineas">
+    		<img src="img/Lineas.png" width="100%" />
+   		 </div>	
+	</div>
+<!--Termina menu--> 

@@ -1,0 +1,18 @@
+CREATE TABLE tienda(
+ id INT NOT NULL AUTO_INCREMENT,
+ sku varchar (15) null,
+ cuerpo varchar (50) null,
+ categoria varchar (50) null,
+ marca varchar (15) null,
+ coleccion varchar (15) null,
+ tamano varchar (30) null,
+ alto varchar (30) null,
+ largo varchar (30) null,
+ ancho varchar (30) null,
+ precio varchar (15) null,
+ 165x195 varchar (100) null,
+ 350x450 varchar (100) null,
+ 600x800 varchar (100) null,
+ Pxc varchar (10) null,
+ primary key(id)
+);

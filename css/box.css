@@ -1,0 +1,119 @@
+#wrapper {
+    width: 600px;
+    margin:  auto;
+}
+
+
+
+#slider2 {
+    width: 570px;
+	height:350px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#slider3 {
+    width: 570px;
+	height:350px;
+    margin: 0 auto;
+    position: relative;
+	top:-35px;
+	right:-50px;
+	
+}
+#slider4 {
+    width: 570px;
+	height:350px;
+    margin: 0 auto;
+    position: relative;
+	top:-35px;
+	right:-50px;
+	
+}
+#sliderprueba {
+    width: 570px;
+	height:350px;
+    margin: 0 auto;
+    position: relative;
+	top:-1550px;
+	right:-50px;
+	
+}
+
+.scroll {
+	overflow: hidden;
+	width: 570px;
+	height:350px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.scrollContainer {
+	position: relative;
+}
+
+.scrollContainer div.panel {
+    padding: 10px;
+    width: 250px;
+	height: 350px;
+}
+
+#left-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10px;
+	bottom: 0;
+}
+
+#right-shadow {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 10px;
+	bottom: 0;
+}
+
+.inside {
+	padding:1px;
+	
+}
+
+.inside img {
+	display: block;
+	
+	margin: 0 0 1px 0;
+	width:150px;
+}
+
+.inside h2 {
+	font-weight: normal;
+	color: #111;
+	font-size: 16px;
+	margin: 0 0 8px 0;
+}
+
+.inside p {
+	font-size: 11px;
+	color: #ccc;
+}
+
+
+
+.scrollButtons {
+    position: absolute;
+    top: 95px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -45px;
+}
+
+.scrollButtons.right {
+    right: -45px;
+}
+
+.hide {
+    display: none;
+}

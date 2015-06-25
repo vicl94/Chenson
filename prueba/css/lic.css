@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+#diez{
+	width:317px;
+	height:167px;
+	overflow:hidden;
+	float:left;
+	margin:auto;
+	
+	}
+#ocho{
+	width:600px;
+	height:100px;
+	background-color: #65901f ;
+	position:absolute;
+	top:450px;
+	left:50px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}	
+	
+	
+	#chenson{
+	width:317px;
+	height:167px;
+	overflow:hidden;
+	float:left;
+	margin:auto;
+	}
+	
+	#chensonf{
+	width:600px;
+	height:120px;
+	background-color:#247ab3;  
+	position:absolute;
+	top:450px;
+	left:400px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}	
+	#changolos{
+	width:317px;
+	height:167px;
+	overflow:hidden;
+	float:left;
+	margin:auto;
+	}
+	
+	#changolosf{
+	width:450px;
+	height:150px;
+	background-color:#46b4e4;
+	position:absolute;
+	top:450px;
+	left:700px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}	
+	
+	#fulanitos{
+	width:317px;
+	height:167px;
+	overflow:hidden;
+	float:left;
+	margin:auto;
+	}
+	
+	#fulanitosf{
+	width:400px;
+	height:150px;
+	background-color:#e1db1c;
+	position:absolute;
+	top:450px;
+	left:800px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}	
+	#mafalda{
+	width:317px;
+	height:167px;
+	overflow:hidden;
+	float:left;
+	margin:auto;
+	}
+	
+	#mafaldaf{
+	width:600px;
+	height:167px;
+	background-color:#e30613;  
+	position:absolute;
+	top:630px;
+	left:50px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}	
+	
+	#nici{
+	width:317px;
+	height:167px;
+	overflow:hidden;
+	float:left;
+	margin:auto;
+	}
+	
+	#nicif{
+	width:800px;
+	height:115px;
+	background-color:#e5024e;  
+	position:absolute;
+	left:400px;
+	top:630px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}	
+	
+	#pantera{
+	width:317px;
+	height:167px;
+	overflow:hidden;
+	float:left;
+	margin:auto;
+	}
+	
+	#panteraf{
+	width:517px;
+	height:120px;
+	background-color:#ae316a;  
+	position:absolute;
+	left:700px;
+	top:630px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}	
+	
+	#sandichos{
+	width:317px;
+	height:167px;
+	float:left;
+	margin:auto;
+	}
+	
+	#sandichosf{
+	width:500px;
+	height:110px;
+	background-color:#0099db;  
+	position:absolute;
+	left:800px;
+	top:630px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}	
+
+
+#snoopy{
+	width:317px;
+	height:167px;
+	left:0px;
+	float:left;
+	margin:auto;
+	}
+	
+	#snoopyf{
+	width:400px;
+	height:100px;
+	background-color:#000000;  
+	position:absolute;
+	left:50px;
+	top:830px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}
+	
+	#yosh{
+	width:317px;
+	height:167px;
+	left:0px;
+	float:left;
+	
+	margin:auto;
+	
+	}
+	
+	#yoshf{
+	width:300px;
+	height:100px;
+	background-color:#6a462c;  
+	position:absolute;
+	left:400px;
+	top:830px;
+	border-radius:10px ;
+	color:white;
+	padding:10px;
+	text-align:justify;
+	}
+

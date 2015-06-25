@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1080px) {
+.frame{
+	width:75%;
+	height:1000px;
+	}	
+	
+/*-----------------------------------------------------------------------------------*/
+/*	Inicia galerias de productos
+/*-----------------------------------------------------------------------------------*/
+.contenedor{
+	width:100%;
+	margin:auto;
+	text-align:center;
+	float:right;
+	display:block;
+	}
+#paginador{
+	font-size:20px;
+	font-family:futuraMedium;
+	text-align:center;
+	width:40%;
+	}
+.caja{
+	background-color:#f5f7f9;
+	float:left;
+	width:14%;
+	text-align:center;
+	margin:15px;
+	margin-bottom:!important 40px;
+	font-family:futura;
+	font-size:20px;
+	
+	}
+.skucaja{
+	font-size:18px;}	
+.caja a{
+	text-decoration:none;
+	}	
+.datos{
+	font-family:futura;
+	font-size:16px;
+	}			
+.imgProducto{
+	width:100%;
+	}
+.frame{
+	
+	width:85%;
+	height:1200px;
+	}			
+	
+
+}

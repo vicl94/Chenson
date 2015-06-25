@@ -1,0 +1,867 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0px;
+	margin: 0px;
+			}
+			
+			
+html{
+	background:url(../img/textback.png);
+			}
+@font-face{
+	font-family:institucional;
+	src:url('NeoTechStd-Regular.otf') format("opentype");
+		}
+		
+		
+div{
+	font-family:institucional;
+		}
+		
+		
+		a img { border: none; }
+#cuerpo{
+			width:1280px;
+			height:950px;
+			background:#fff;
+			border:1px;
+			border-radius:0px 0px 0px 0px;
+			margin: 0px auto;
+			}	
+#cuerpocon{
+			width:1280px;
+			height:930px;
+			background:#fff;
+			border:1px;
+			border-radius:0px 0px 0px 0px;
+			
+			margin: 0px auto;
+			}	
+	#cuerpoti{
+			width:1280px;
+			height:740px;
+			background:#fff;
+			border:1px;
+			border-radius:0px 0px 0px 0px;
+			
+			margin: 0px auto;
+			}
+#cuerpomapa{
+			width:1280px;
+			height:650px;
+			background:#FFF;
+			border:1px;
+			border-radius:0px 0px 0px 0px;
+			margin: 0px auto;
+			
+			}
+				.mapa{
+					width:1280px;
+					height:650px;
+					position:relative;
+					float:left;
+					text-align:center;
+					
+					}
+				.miniatura{
+					Width:300px;
+					border:1px #000000;
+					border-radius:5px 5px 5px ; 
+					top:350px;
+					position:absolute;
+				
+					
+					}
+						
+					
+					
+#cuerpolic{
+			width:1280px;
+			height:1200px;
+			background:#fff;
+			border:1px;
+			border-radius:0px 0px 0px 0px;
+			margin: 0px auto;
+			
+			}
+								
+.licencias{
+			width:1280px;
+			height:650px;
+			background:#red;
+			border:1px #0F0;
+			background-color:red;
+			margin: 0px auto;
+			text-align:center;
+			}
+			
+#cuerpogal{
+			width:1280px;
+			height:auto;
+			background:#fff;
+			border:1px;
+			border-radius:0px 0px 0px 0px;
+			margin: 0px auto;
+			}	
+				
+						
+							
+#header{
+	width:1280px;
+	background:#fff;
+	height:140px;
+	top:110px;
+	margin:auto;
+	border:1px;	
+	
+	border-radius:10px 10px 0px 0px;
+	}
+.logo{
+	float:left;
+	margin:20px;
+	top:10px;
+	
+	}	
+	
+	
+	/*menu*/
+.nav-wrap { 
+	
+	float:left;
+	height:31px;
+	margin:50px;
+	top:10px;
+	}
+
+
+
+
+/* Example One */
+
+#example-one { 
+	margin: 0 auto; 
+	list-style: none; 
+	position: absolute; 
+	}
+#example-one li { 
+	display: inline-block;	
+}
+#example-one a { 
+	color: #f99f1b; 
+	font-size: 18px; 
+	float: left;
+	padding: 6px 10px 4px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#example-one a:hover { 
+	color: #10335a; 
+}
+#magic-line { 
+	position: absolute;
+	bottom: -2px; 
+	left: 0; 
+	width: 100px; 
+	height: 2px; 
+	background: #10335a;
+}
+.current_page_item a { 
+	color: #10335a !important; 
+}
+.ie6 #example-one li, .ie7 #example-one li { 
+	display: inline; 
+}
+.ie6 #magic-line {
+	bottom: -3px;
+}	
+	/*termina menu*/
+	
+	
+		
+#bannerh{
+	width:1280px;
+	height:260px;
+	background:#fff;
+	margin:auto;
+	border:1px;
+	
+	}
+	/*pins*/
+#accesor{
+	width:1280px;
+	
+	background:#fff;
+	margin:auto;
+	border:1px;	
+	
+	text-align:center;
+	}
+	.pins{
+		margin:15px;
+		
+		
+		}
+		
+		.pins:hover{
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1)
+		}				
+	/*termina pins*/
+#accesor2{
+	width:1280px;
+	height:80px;
+	
+	background:#fff;
+	margin:auto;
+	border:1px;	
+	text-align:center;
+	}
+	
+#varios{
+	width:1280px;
+	height:300px;
+	background:#fff;
+	margin:auto;
+	border:1px;
+	
+	}
+		#destacado{
+			width:50%;
+			height:300px;
+			float:left;
+			
+			
+			}
+		
+		#suscribe{
+			width:45%;
+			height:300px;
+			float:left;
+			border:1px;
+			
+			}
+				#suscripcion{
+				width:320px;
+				float:right;
+			
+			}
+			
+			/*slider identifica*/
+				#identifica{
+				width:45%;
+				height:300px;
+				text-align:center;
+				margin:0;
+				}
+	
+				
+				
+				
+				#slider1 {
+				width: 608px; /* important to be same as image width */
+				height: 340px; /* important to be same as image height */
+				position: relative; /* important */
+				top:-40px;
+				overflow: hidden; /* important */
+				 margin-left: 0px;
+				}
+				
+				#slider1Content {
+					width: 640px; /* important to be same as image width or wider */
+					position: absolute;
+					top: 0;
+					margin-left: 0;
+				}
+				.slider1Image {
+					float: left;
+					position: relative;
+					display: none;
+				}
+				.slider1Image span {
+					position: absolute;
+					font: 14px/15px;
+					text-align:left;
+					padding: 10px 13px;
+					width: 694px;
+					background-color: #fff;
+					filter: alpha(opacity=70);
+					-moz-opacity: 0.9;
+					-khtml-opacity: 0.9;
+					opacity: 0.9;
+					color: #10335a;
+					text-shadow:0px 0.5px 0.5px #888;
+					display: none;
+					
+				}
+				.clear {
+					clear: both;
+				}
+				.slider1Image span strong {
+					font-size: 18px;
+				}
+				.izquierda {
+					top: 0;
+					left: 0;
+					width: 110px !important;
+					height: 280px;
+				}
+				
+				ul { list-style-type: none;}			
+							
+			
+			
+/*termina slider identifica*/
+/*licencias*/
+	#licencias{
+		width:48%;
+			height:300px;
+			background:white;
+			border:1px;
+			box-shadow: 3px 3px 10px #888888;
+			position:relative;
+			left:610px;
+			top:-340px;
+		
+		}
+/*termina licencias*/
+			
+			
+			
+#redes{
+	width:5%;
+	height:250px;
+	float:left;
+	text-align:center;
+	
+}
+	.redes2
+	{
+	width:5%;
+	height:250px;
+	left:1225px;
+	text-align:center;
+	bottom:220px;
+	position:relative;
+}
+		
+#pie{
+	width:1280px;
+	height:80px;
+	background:#f99f1b;
+	margin:auto;
+	border:1px;	
+	
+	}
+	
+		.contacto{
+	width:80px;
+	position:relative;
+	left:1000px;
+	padding:25px;
+	color:#FFF;
+	top:-45px;
+	}
+	.contacto2{
+	width:80px;
+	float:right;
+	position:relative;
+	left:-40px;
+	top:-135px;
+	padding:30px;
+	color:#FFF;
+	
+	}
+	.menuinf{
+		float:left;
+		font-size:23px;
+		color: #10335a;
+		padding:20px;
+		}
+	a{
+	text-decoration: none;
+	color:#10335a;
+	
+	}
+	
+	a:hover { 
+	color: #FFF; 
+	}
+	
+	
+	a.clase2{
+		text-decoration: none;
+		color:#10335a;
+		}
+	a.clase3{
+		text-decoration: none;
+		width:750px;
+		color:#fff;
+		background-color:#fff;
+		box-shadow: 3px 3px 10px #888888;
+		border-radius:5px;
+		}
+		
+/*Conoce Chenson*/
+#identidad{
+	width:1280px;
+	height:330px;
+	background:#fff;
+	margin:auto;
+	border:1px;	
+	text-align:center;
+	}		
+/*Termina Conoce Chenson*/
+
+
+/*galeria*/
+#buscador{
+	
+	width:auto;
+	position:relative;
+	right:-900px;
+	
+	
+	}
+
+
+
+header span{
+	font-style:italic;
+	font-size:40px;
+	margin:-10px 0 10px 188px;
+	display:block;
+	color:#10335a;
+	text-shadow:1px 1px 1px #fff;
+}
+
+.caja{
+			background-color:#f5f7f9;
+			float:left;
+			width:200px;
+			height:300px;
+			text-align:center;
+			margin:5px;
+			}
+			.contenedor{
+			width:1050px;
+			margin:auto;
+			
+			}
+			/*pagina detalle*/
+
+.cajasola{
+			background:white;
+			float:left;
+			width:450px;
+			height:550px;
+			text-align:center;
+			border:1px solid #E2E2E2;
+			border-radius:10px;
+			cursor: crosshair
+			}
+			.cajades{
+			background:white;
+			float:left;
+			width:300px;
+			height:auto;
+			
+			padding:15px;
+					
+			}
+/*pagina detalle*/
+#paginador{
+	width=:auto;
+	margin:auto;
+	text-align:center;
+	font-size:25px;
+	}
+	
+	
+	.botonpag{
+		background-color:#f99f1b;
+		box-shadow: 3px 3px 10px #888888;
+		border-radius:10px;
+		}
+/*termina galeria*/
+
+/*donde comprar*/
+
+/*termina donde comprar*/
+
+/*Nuestras marcas*/
+#flotante
+    {
+        position: absolute;
+        display:none;
+       
+        font-size:0.8em;
+        width:280px;
+        border:1px solid #808080;
+        background-color:#f99f1b;
+        padding:5px;
+    }
+    
+    .text {
+		}
+/*termina Nuestras marcas*/
+
+
+
+
+/* ZOOM CONTAINER */
+.zoom											{ display: block; margin: 0 auto; }
+.large										{ background: white; }
+
+
+
+/* FOR IMAGE DEMO */
+.small img								{ width: 400px; height: 480px; }
+.large img								{ width: 600px; height: 720px; }
+
+
+
+/* AnythingZoomer */
+.az-wrap, .az-small, .az-large {
+	position: relative;
+}
+.az-wrap-inner {
+	display: block;
+	margin: 0 auto; /* center small & large content */
+}
+/* This wraps the large image and hides it */
+.az-zoom {
+	background: #fff;
+	border: #333 1px solid;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	z-index: 100;
+	display: none;
+	-moz-box-shadow: inset 0px 0px 4px #000;
+	-webkit-box-shadow: inset 0px 0px 4px #000;
+	box-shadow: inset 0px 0px 4px #000;
+}
+/* Class applied to az-mover when large image is windowed */
+.az-windowed {
+	overflow: hidden;
+	position: absolute;
+}
+/* Class applied to az-mover when large image is fully shown */
+.az-expanded {
+	height: auto;
+	width: auto;
+	position: static;
+	overflow: visible;
+}
+
+/* overlay small area */
+.az-overlay {
+	background-color: #000;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	z-index: 10;
+}
+
+/* fade out small content when hovering
+.az-hovered > * {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+*/
+/*bloque redes*/
+#comment-wrapper {
+  position: relative;
+}
+
+#commentWrapper { /* required to avoid jumping */
+  right:10px;
+  background:#10335a;	
+  margin-left: 1200px;
+  top:70px;
+  width:60px;
+}
+
+#commentWrapper2 { /* required to avoid jumping */
+  right:10px;
+  background:#10335a;	
+  margin-left: 1220px;
+  top:70px;
+  width:60px;
+}
+
+#comment {
+  position: absolute;
+  top:70px;
+  margin-top: 60px;
+  padding-top: 19px;
+}
+#comment2 {
+  position: absolute;
+  top:720px;
+  margin-top: 60px;
+  padding-top: 19px;
+}
+
+
+
+#comment.fixed {
+  position: fixed;
+  top:0px;
+}
+
+/*carrito*/
+#cuerpocar{
+			width:1280px;
+			height:800px;
+			background:#fff;
+			border:1px;
+			border-radius:0px 0px 0px 0px;
+			box-shadow: 3px 3px 10px #888888;
+			margin: 0px auto;
+			}
+#cuerpodet{
+			width:1280px;
+			height:800px;
+			background:#fff;
+			border:1px;
+			border-radius:0px 0px 0px 0px;
+			box-shadow: 3px 3px 10px #888888;
+			margin: 0px auto;
+			}			
+#producto{
+	width:150px;
+	border:1px solid #E2E2E2;
+	float:left;
+	margin:5px;
+	text-align:center;
+	}
+
+#precio{
+	width:150px;
+	border:1px solid #E2E2E2;
+	float:left;
+	margin:5px;
+	}
+#cantidad{
+	width:150px;
+	border:1px solid #E2E2E2;
+	float:left;
+	margin:5px;
+	}
+#subtotal{
+	width:150px;
+	border:1px solid #E2E2E2;
+	float:left;
+	margin:5px;
+	}	
+#total{
+	width:150px;
+	border:1px solid #E2E2E2;
+	float:left;
+	margin:5px;
+	}
+	
+.carh{
+	width:150px;
+	height:25px;
+	background-color:#10335a;
+	color:#FFF;
+	text-align:center;
+	}	
+.estilo1{
+	color:white;
+	font-size: 26px;
+	background-color:#10335a;
+	height:50px;
+	text-align:center;
+	}
+.tabla{
+	
+	border:solid 0px #000000;
+	}
+	
+	.celda{
+		border:solid 1px #000000;
+		}
+		
+		.botonb{
+        font-size:12px;
+        
+        font-weight:bold;
+        color:white;
+       background:#10335a;
+		border-radius:5px 5px 5px;
+        border:0px;
+		transition:transform 1s ease-out;
+        -webkit-transition:-webkit-transform 1s ease-out;
+        height:50px;
+		width:150px;
+		position:absolute;
+		left:250px;
+		cursor: pointer; 
+       }
+	   .boton2{
+        font-size:12px;
+       	font-weight:bold;
+        color:white;
+       	background:#f99f1b;
+		border-radius:5px 5px 5px;
+        border:0px;
+		transition:transform 1s ease-out;
+        -webkit-transition:-webkit-transform 1s ease-out;
+        height:50px;
+		width:150px;
+		position:absolute;
+		left:450px;
+		cursor: pointer; 
+      		 }
+			 
+		.btnvlv{
+        font-size:12px;
+       	font-weight:bold;
+        color:white;
+       	background:#10335a;
+		border-radius:5px 5px 5px;
+        border:0px;
+		transition:transform 1s ease-out;
+        -webkit-transition:-webkit-transform 1s ease-out;
+        height:50px;
+		width:150px;
+		position:absolute;
+		left:850px;
+		top:225px;
+		cursor: pointer; 
+      		 }	 
+	   
+	   .titulos{
+	  color:#f99f1b;
+	  font-size:40px;
+	  text-shadow:#000;
+		   }
+		   
+		   .titulos2{
+	  color:#f99f1b;
+	  font-style:italic;
+	  font-size:80px;
+	  text-shadow:#000;
+	  position:relative;
+	  left:50px;
+		   }
+		   .sub{
+			  color:#10335a;
+			  font-style:italic;
+			  font-size:40px;
+			  text-shadow:#000;
+			  position:relative;
+			  left:150px;  
+			   }
+		   
+		   .titulos3{
+	  color:#f99f1b;
+	  font-style:italic;
+	  font-size:40px;
+	  text-shadow:#000;
+	  position:relative;
+	  left:50px;
+		   }
+		   .sub2{
+			  color:#10335a;
+			  font-style:italic;
+			  font-size:80px;
+			  text-shadow:#000;
+			  position:relative;
+			  left:100px;  
+			   }
+		   .sub3{
+			  color:#10335a;
+			  font-style:italic;
+			  font-size:30px;
+			  text-shadow:#000;
+			  position:relative;
+			  left:600px;
+			  top:-50px;
+			  width:550px;
+			   }
+		.titulos4{
+			color:#10335a;
+			  font-style:italic;
+			  font-size:50px;
+			  text-shadow:#000;
+			  position:relative;
+			  }	
+			  		
+					
+		.titdest{
+			color:#f99f1b;
+			  font-style:italic;
+			  font-size:40px;
+			  text-shadow:#000;
+			  position:relative;
+			  left:180px;
+			  top:-20px;
+			}	
+			.titdestnm{
+			color:#f99f1b;
+			  font-style:italic;
+			  font-size:40px;
+			  text-shadow:#000;
+			  position:relative;
+			  left:180px;
+			  top:-50px;
+			}	
+			.titin{
+			color:#f99f1b;
+			  font-style:italic;
+			  font-size:40px;
+			  text-shadow:#000;
+			  position:relative	;
+			  left:180px;
+			  top:-10px;
+			}		
+			.titco{
+			color:#f99f1b;
+			  font-style:italic;
+			  font-size:40px;
+			  text-shadow:#000;
+			 position:relative	;
+			  left:180px;
+			  top:-10px;
+			}	
+			.titti{
+			color:#f99f1b;
+			  font-style:italic;
+			  font-size:30px;
+			  text-shadow:#000;
+			  position:relative;
+			 float:left;
+			  top:-10px;
+			}	
+			.titti2{
+			color:#10335a;
+			  font-style:italic;
+			  font-size:30px;
+			  text-shadow:#000;
+			   position:relative;
+			  left:650px;
+			  top:-80px;
+			}	    
+		   #llama{
+			   margin: auto;
+			   background:#10335a;
+			   width:300px;
+			   color:#fff; 
+			   height:70px;
+			   border-radius:5px 5px 5px;
+			   padding:10px;
+			   text-align:center;
+			   }
+		   
+		   

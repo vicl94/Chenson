@@ -1,0 +1,113 @@
+/* Photo Map Style */
+.mp-container{
+	background:#f4f4f4;
+	border:5px solid #fff;
+	width:1000px;
+	height:450px;
+	position:relative;
+	margin: 0 auto;
+	-moz-box-shadow:1px 1px 3px #cac4ab;
+	-webkit-box-shadow:1px 1px 3px #cac4ab;
+	box-shadow:1px 1px 3px #cac4ab;
+}
+.mp-container-fullscreen{
+	border:none;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+.mp-image-overlay{
+	position:fixed;
+	z-index:1000;
+	top:0px;
+	left:0px;
+	background:transparent url(../images/black.png) repeat top left;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+.mp-image-overlay img{
+	position:absolute;
+	top:50%;
+	left:50%;
+	border:5px solid #fff;
+	-moz-box-shadow:1px 1px 3px #000;
+	-webkit-box-shadow:1px 1px 3px #000;
+	box-shadow:1px 1px 3px #000;
+}
+.mp-image-overlay-desc{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:45px;
+	background:transparent url(../images/black.png) repeat top left;
+}
+.mp-map-wrapper{
+	width:1000px;
+	height:600px;
+	float:left;
+	border-right:5px solid #fff;
+}
+.mp-options-wrapper{
+	width:100%;
+	height:45px;
+	border-top:5px solid #fff;
+	background:#333;
+	text-align:center;
+	position:relative;
+	
+}
+h2.mp-label{
+	font-family: 'Rokkitt', sans-serif;
+	color:#fff;
+	font-size:20px;
+	line-height:46px;
+	font-weight:700;
+	text-shadow:1px 1px 1px #000;
+}
+.mp-options{
+	position:relative;
+}
+.mp-options a{
+	position:absolute;
+	opacity:0.5;
+	width:36px;
+	height:36px;
+	text-indent:-9000px;
+	top:5px;
+	left:5px;
+	background: #fff url(../images/back.png) no-repeat center center;
+}
+.mp-options a:hover{
+	opacity:0.8;
+}
+.mp-options a.mp-option-fullscreen,
+.mp-options a.mp-option-normal{
+	background: #fff url(../images/expand.png) no-repeat center center;
+	right:5px;
+	left:auto;
+}
+.mp-options a.mp-option-normal{
+	background-image:url(../images/collapse.png);
+}
+.mp-loading{
+	background:transparent url(../images/ajax-loader.gif) no-repeat center center;
+	width:48px;
+	height:48px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-24px 0 0 -24px;
+	text-indent:-9000px;
+}
+.mp-image-loading-small{
+	background:transparent url(../images/ajax-loader-small.gif) no-repeat center center;
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:10px;
+	left:10px;
+	text-indent:-9000px;
+	display:none;
+}

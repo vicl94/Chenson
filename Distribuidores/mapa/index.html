@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Multi-level Photo Map - A location based image gallery app</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script id="galleryTmpl" type="text/x-jquery-tmpl">
+			<div class="mp-album-outer">
+			<div class="mp-album">
+						{{each(i, option) tmplPhotosData}}
+							<a href="${tmplPhotosData[i]}"><img src="${tmplPhotosData[i]}"/></img></a>
+					{{/each}}
+				</div>
+			</div>			
+		</script>
+    </head>
+    <body>
+		<div class="container">
+			<div class="mp-container" id="mp-container">
+				<div class="mp-map-wrapper" id="map"></div>
+				
+			</div>
+		</div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/mapalbum.js"></script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+div.light_square .pp_content {
+		 background: #fff;
+		 position:absolute;
+		 bottom:100;
+		 padding:10px;
+		 margin:10px;
+		 margin-top:50px;	
+		 }
+	
+	div.light_square .pp_close { width: 75px; height: 22px; background: url(../img/light_square/sprite.png) -1px -1px no-repeat; cursor: pointer; } /* Close button */
+	div.light_square .pp_details { position: absolute; }
+	
+
+	div.pp_overlay {
+		background: #000;
+		display: none;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 9500;
+	}
+	
+		div.pp_pic_holder {
+			display: none;
+			position: absolute;
+			width: 100px;
+			z-index: 10000;
+			
+		}
+		
+		
+		.pp_fade { display: none; }
+		
+		
+		
+		.pp_gallery {
+			display: none;
+			left: 50%;
+			position: absolute;
+			z-index: 10000;
+		}
+		
+		a.pp_expand,
+		a.pp_close {
+			position: absolute; right: 0; top: 0; 
+			display: block;
+			line-height:22px;
+			text-indent: -10000px;
+		}
